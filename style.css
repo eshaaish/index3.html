@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("vitt.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 250px;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(114,233,114);
+
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+
+}
+.text{
+    width: 90%;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: darkorange;
+}
+.text h1{
+    font-size: 62px;
+    color: #fff;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #b11111;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid #3c1dac;
+    background: #3c1dac;
+    transition: 1s;
+}
+.center{
+    display: block;
+    margin-top: 10%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*------course-----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.ugbtn{
+    background-color: #ec8c8c;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+.UG{
+    display: inline-block;
+    position: relative;
+}
+.UG-content {
+    display: none;
+    position: absolute;
+    background-color: crimson;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.UG-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.UG-content a:hover{
+    background-color: chocolate;
+}
+.UG:hover .UG-content{
+    display: block;
+
+}
+.UG:hover .ugbtn{
+    background-color: grey;
+}
+.pgbtn{
+    background-color: #e6a8a8;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+.PG{
+    display: inline-block;
+    position: relative;
+}
+.PG-content {
+    display: none;
+    position: absolute;
+    background-color: crimson;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.PG-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.PG-content a:hover{
+    background-color: chocolate;
+}
+.PG:hover .PG-content{
+    display: block;
+
+}
+.PG:hover .pgbtn{
+    background-color: grey;
+}
+.course{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("engineer.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.course h1{
+    color: darksalmon;
+}
+/*blog*/
+.upcoming-events{
+   
+    width: 90%;
+    position:absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: darkorange;
+    
+}
+.upcoming-events a{
+    color: white;
+}   
+ 
+.clubs{
+  
+    width: 90%;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(212, 24, 87);
+    background-color: beige;
+
+}
+.clubs h1{
+    color: #224bfd;
+}
+.clubs h3{
+    color: rgb(53, 150, 8);
+}
+/*about*/
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("ac.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.campus{
+    width: 90%;
+    position:absolute;
+    top: 15%;
+ left: 5%;
+ 
+    text-align: center;
+    color: rgb(212, 24, 87);
+    background-color: rgb(178, 236, 181);
+
+}
+.achievements{
+    width: 90%;
+    position:absolute;
+    top: 40%;
+ left: 5%;
+ 
+    text-align: center;
+    color: rgb(212, 24, 87);
+    background-color: rgb(204, 240, 138);
+
+}
+/*faculty*/
+.faculty{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("faculty.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fac{width: 90%;
+    position:absolute;
+    top: 15%;
+ left: 0%;
+ transform: (-50%,-50%);
+ 
+
+    color: rgb(23, 18, 46);
+    background-color: rgb(170, 211, 228);
+
+}
+.fac ul li a{
+    font-size: 20px;
+    
+    position:absolute;
+    top: 70%;
+ left: 0%;
+ transform: (-50%,-50%);
+ 
+
+    color: rgb(23, 18, 46);
+    background-color: rgb(86, 197, 241);
+
+  
+}
+/*competitive exams*/
+.competition{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("comp.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.exams{
+    font-size: 20px;
+    width: 90%;
+    position:absolute;
+    top: 15%;
+ left: 0%;
+ transform: (-50%,-50%);
+ 
+ 
+
+    color: rgb(250, 240, 225);
+    background-color: rgb(17, 17, 15);
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:rgb(61, 236, 61);
+}
+.rate:not(:checked) > label:before {
+    content: "\f005";
+}
+.rate > input:checked ~ label {
+    color: #f183b1;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #e6f32d;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #59bddb;
+}
+/*schedule and result*/
+.Result{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("re.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.feedback{
+    font-size: 20px;
+    width: 90%;
+    position:absolute;
+    top: 15%;
+ left: 0%;
+ transform: (-50%,-50%);
+ 
+ 
+
+    color: rgb(14, 15, 15);
+    background-color: rgb(235, 236, 247); 
+}
+.form{
+    font-size: 20px;
+    width: 90%;
+    position:absolute;
+    top: 50%;
+ left: 0%;
+ transform: (-50%,-50%);
+ 
+ 
+
+    color: rgb(146, 227, 241);
+    background-color: rgb(12, 78, 17); 
+}

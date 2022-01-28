@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>LABDA1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="Result">
+
+        <nav>
+
+
+            <div class="navlinks">
+                <ul>
+                    <li><a href="home.html">Homepage</a>
+                    </li>
+                    <li><a href="about.html">About and
+                            Achievements</a></li>
+                    <li><a href="course.html">Course</a>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="schedule.html">Schedule
+                            and Feedback</a></li>
+                    <li><a href="faculty.html">Faculty</a>
+                    </li>
+                    <li><a href="competitive.html">Competitive
+                            Result</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="feedback">
+        <h1>SCHEDULE</h1>
+        <table cellspacing="2" border="1px">
+            <thead>
+                <th>Branch</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>31st jan,2022</td>
+                    <td rowspan="2">7th feb,2022</td>
+                </tr>
+                <tr>
+                    <td>Mechanical</td>
+                    <td rowspan="2"> 1st feb,2022</td>
+
+                </tr>
+                <tr>
+                    <td>Electrical</td>
+
+                    <td>10th feb,2022</td>
+                </tr>
+                <tr>
+                    <td>Civil</td>
+                    <td>4th feb,2022</td>
+                    <td>13th feb,2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="form">
+        <h1>Feedback Form</h1>
+        <form action="schedule.html" method="get" id="usrform">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <label for="email-id">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="phone-no.">Phone:</label>
+            <input type="number" name="phone-no." id="phone-no.">
+            <br>
+            <label for="comment">Comments:</label>
+            <textarea name="Comment" form="usrform"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+
+    </section>
+</body>
+
+</html>
